@@ -437,6 +437,9 @@ strong {
   width: 200px;
   float: left;
   position: relative;
+  @media screen and (max-width: 750px) {
+    display: none;
+  }
 }
 #site_header a.lang_fallback {
   font-weight: bold;
@@ -585,6 +588,9 @@ body.dark #clinput input {
 }
 #lichess {
   margin-left: 211px;
+  @media screen and (max-width: 750px) {
+    margin-left: 10px;
+  }
 }
 #site_title {
   width: 130px;
@@ -967,6 +973,9 @@ span.progress > .negative {
   max-height: 95%;
   /* improve scroll perfs */
   backface-visibility: hidden;
+  @media screen and (max-width: 750px) {
+    display: none;
+  }
 }
 #friend_box:hover {
   overflow-y: auto;
